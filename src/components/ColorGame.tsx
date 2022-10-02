@@ -53,7 +53,6 @@ const ColorGame = (props: Props) => {
         className="color-container"
         style={{ backgroundColor: generatedColor }}
       >
-        {generatedColor}
       </div>
       <ColorOptions options={colorOptions} onClick={handleClick} />
       {feedbackMessage ? (
