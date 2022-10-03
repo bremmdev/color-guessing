@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import ColorGame from "./components/ColorGame";
 import StreakCounter from "./components/StreakCounter";
-import HighScore from './components/HighScore'
+import HighScore from "./components/HighScore";
 
 let isInitial = true;
 
